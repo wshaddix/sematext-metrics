@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Sematext-Metrics</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Wes Shaddix</Authors>
+    <Description>A custom metrics client for .Net</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageTags>sematext spm metrics</PackageTags>
+  </PropertyGroup>
+
+</Project>

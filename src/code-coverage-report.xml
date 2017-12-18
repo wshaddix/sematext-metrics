@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root CoveredStatements="222" TotalStatements="248" CoveragePercent="90" ReportType="NDependXML" DotCoverVersion="2017.2.2">
+  <Assembly Name="Sematext" CoveredStatements="99" TotalStatements="115" CoveragePercent="86">
+    <Namespace Name="Sematext" CoveredStatements="95" TotalStatements="102" CoveragePercent="93">
+      <Type Name="Metric" CoveredStatements="61" TotalStatements="65" CoveragePercent="94">
+        <Method Name=".ctor(Int64,String,Int32,AggregateTypes,String,String)" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" FirstStatementLine="29" />
+        <Method Name=".ctor(String,Int32,AggregateTypes,String,String)" CoveredStatements="0" TotalStatements="4" CoveragePercent="0" FirstStatementLine="47" />
+        <Method Name="get_Aggregation()" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="8" />
+        <Method Name="get_Filter1()" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="10" />
+        <Method Name="get_Filter2()" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="12" />
+        <Method Name="get_Name()" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="14" />
+        <Method Name="get_Timestamp()" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="16" />
+        <Method Name="get_Value()" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="18" />
+        <Method Name="set_Aggregation(String)" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="8" />
+        <Method Name="set_Filter1(String)" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="10" />
+        <Method Name="set_Filter2(String)" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="12" />
+        <Method Name="set_Name(String)" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="14" />
+        <Method Name="set_Timestamp(Int64)" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="16" />
+        <Method Name="set_Value(Int32)" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="18" />
+        <Method Name="SetAggregation(AggregateTypes)" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" FirstStatementLine="58" />
+        <Method Name="SetFilter1(String)" CoveredStatements="13" TotalStatements="13" CoveragePercent="100" FirstStatementLine="65" />
+        <Method Name="SetFilter2(String)" CoveredStatements="13" TotalStatements="13" CoveragePercent="100" FirstStatementLine="84" />
+        <Method Name="SetName(String)" CoveredStatements="7" TotalStatements="7" CoveragePercent="100" FirstStatementLine="103" />
+        <Method Name="SetTimestamp(Int64)" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" FirstStatementLine="114" />
+        <Method Name="SetValue(Int32)" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" FirstStatementLine="120" />
+      </Type>
+      <Type Name="MetricsClient" CoveredStatements="34" TotalStatements="37" CoveragePercent="92">
+        <Type Name="&lt;SendAsync&gt;d__5" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Method Name="MoveNext()" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" FirstStatementLine="33" />
+        </Type>
+        <Type Name="&lt;SendAsync&gt;d__6" CoveredStatements="17" TotalStatements="17" CoveragePercent="100">
+          <Method Name="MoveNext()" CoveredStatements="17" TotalStatements="17" CoveragePercent="100" FirstStatementLine="38" />
+        </Type>
+        <Type Name="&lt;SendBatch&gt;d__7" CoveredStatements="5" TotalStatements="8" CoveragePercent="63">
+          <Method Name="MoveNext()" CoveredStatements="5" TotalStatements="8" CoveragePercent="63" FirstStatementLine="60" />
+        </Type>
+        <Method Name=".cctor()" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="16" />
+        <Method Name=".ctor(String,Uri)" CoveredStatements="8" TotalStatements="8" CoveragePercent="100" FirstStatementLine="17" />
+      </Type>
+    </Namespace>
+    <Namespace Name="Sematext.Exceptions" CoveredStatements="3" TotalStatements="12" CoveragePercent="25">
+      <Type Name="SematextApiException" CoveredStatements="0" TotalStatements="9" CoveragePercent="0">
+        <Method Name=".ctor(HttpStatusCode,String)" CoveredStatements="0" TotalStatements="5" CoveragePercent="0" FirstStatementLine="11" />
+        <Method Name="get_Content()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="get_StatusCode()" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+        <Method Name="set_Content(String)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="8" />
+        <Method Name="set_StatusCode(HttpStatusCode)" CoveredStatements="0" TotalStatements="1" CoveragePercent="0" FirstStatementLine="9" />
+      </Type>
+      <Type Name="SematextValidationException" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+        <Method Name=".ctor(String)" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" FirstStatementLine="7" />
+      </Type>
+    </Namespace>
+    <Namespace Name="Sematext.Helpers" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+      <Type Name="TimeHelper" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
+        <Method Name="get_EpochFromUtc()" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="7" />
+      </Type>
+    </Namespace>
+  </Assembly>
+  <Assembly Name="Tests" CoveredStatements="123" TotalStatements="133" CoveragePercent="92">
+    <Namespace Name="Tests" CoveredStatements="123" TotalStatements="131" CoveragePercent="94">
+      <Type Name="NegativeTestCases" CoveredStatements="57" TotalStatements="65" CoveragePercent="88">
+        <Type Name="&lt;&gt;c" CoveredStatements="4" TotalStatements="6" CoveragePercent="67">
+          <Method Name="&lt;Cannot_Create_A_Metrics_Client_With_A_Blank_App_Key&gt;b__0_0()" CoveredStatements="2" TotalStatements="3" CoveragePercent="67" FirstStatementLine="13" />
+          <Method Name="&lt;Cannot_Create_A_Metrics_Client_With_A_Null_App_Key&gt;b__1_0()" CoveredStatements="2" TotalStatements="3" CoveragePercent="67" FirstStatementLine="24" />
+        </Type>
+        <Type Name="&lt;&gt;c__DisplayClass2_0" CoveredStatements="2" TotalStatements="3" CoveragePercent="67">
+          <Method Name="&lt;Cannot_Send_A_Metric_Whose_Filter1_Name_Is_Longer_Than_255_Characters&gt;b__0()" CoveredStatements="2" TotalStatements="3" CoveragePercent="67" FirstStatementLine="38" />
+        </Type>
+        <Type Name="&lt;&gt;c__DisplayClass3_0" CoveredStatements="2" TotalStatements="3" CoveragePercent="67">
+          <Method Name="&lt;Cannot_Send_A_Metric_Whose_Filter2_Name_Is_Longer_Than_255_Characters&gt;b__0()" CoveredStatements="2" TotalStatements="3" CoveragePercent="67" FirstStatementLine="52" />
+        </Type>
+        <Type Name="&lt;&gt;c__DisplayClass4_0" CoveredStatements="2" TotalStatements="3" CoveragePercent="67">
+          <Method Name="&lt;Cannot_Send_A_Metric_Whose_Name_Is_Blank&gt;b__0()" CoveredStatements="2" TotalStatements="3" CoveragePercent="67" FirstStatementLine="65" />
+        </Type>
+        <Type Name="&lt;&gt;c__DisplayClass5_0" CoveredStatements="2" TotalStatements="3" CoveragePercent="67">
+          <Method Name="&lt;Cannot_Send_A_Metric_Whose_Name_Is_Longer_Than_255_Characters&gt;b__0()" CoveredStatements="2" TotalStatements="3" CoveragePercent="67" FirstStatementLine="79" />
+        </Type>
+        <Type Name="&lt;&gt;c__DisplayClass6_0" CoveredStatements="2" TotalStatements="3" CoveragePercent="67">
+          <Method Name="&lt;Cannot_Send_A_Metric_Whose_Name_Is_Null&gt;b__0()" CoveredStatements="2" TotalStatements="3" CoveragePercent="67" FirstStatementLine="92" />
+        </Type>
+        <Type Name="&lt;&gt;c__DisplayClass7_0" CoveredStatements="2" TotalStatements="3" CoveragePercent="67">
+          <Method Name="&lt;Cannot_Send_A_Metric_Whose_Name_Is_White_Space&gt;b__0()" CoveredStatements="2" TotalStatements="3" CoveragePercent="67" FirstStatementLine="105" />
+        </Type>
+        <Method Name="Cannot_Create_A_Metrics_Client_With_A_Blank_App_Key()" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" FirstStatementLine="11" />
+        <Method Name="Cannot_Create_A_Metrics_Client_With_A_Null_App_Key()" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" FirstStatementLine="22" />
+        <Method Name="Cannot_Send_A_Metric_Whose_Filter1_Name_Is_Longer_Than_255_Characters()" CoveredStatements="6" TotalStatements="6" CoveragePercent="100" FirstStatementLine="33" />
+        <Method Name="Cannot_Send_A_Metric_Whose_Filter2_Name_Is_Longer_Than_255_Characters()" CoveredStatements="6" TotalStatements="6" CoveragePercent="100" FirstStatementLine="47" />
+        <Method Name="Cannot_Send_A_Metric_Whose_Name_Is_Blank()" CoveredStatements="5" TotalStatements="5" CoveragePercent="100" FirstStatementLine="61" />
+        <Method Name="Cannot_Send_A_Metric_Whose_Name_Is_Longer_Than_255_Characters()" CoveredStatements="6" TotalStatements="6" CoveragePercent="100" FirstStatementLine="74" />
+        <Method Name="Cannot_Send_A_Metric_Whose_Name_Is_Null()" CoveredStatements="5" TotalStatements="5" CoveragePercent="100" FirstStatementLine="88" />
+        <Method Name="Cannot_Send_A_Metric_Whose_Name_Is_White_Space()" CoveredStatements="5" TotalStatements="5" CoveragePercent="100" FirstStatementLine="101" />
+      </Type>
+      <Type Name="PositiveTestCases" CoveredStatements="35" TotalStatements="35" CoveragePercent="100">
+        <Type Name="&lt;Can_Handle_A_429_Http_Throttle_Response&gt;d__0" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
+          <Method Name="MoveNext()" CoveredStatements="2" TotalStatements="2" CoveragePercent="100" FirstStatementLine="12" />
+        </Type>
+        <Type Name="&lt;Can_Send_A_Group_Of_Metrics&gt;d__1" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
+          <Method Name="MoveNext()" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" FirstStatementLine="17" />
+        </Type>
+        <Type Name="&lt;Can_Send_A_Metric_With_No_Filter1&gt;d__2" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Method Name="MoveNext()" CoveredStatements="5" TotalStatements="5" CoveragePercent="100" FirstStatementLine="30" />
+        </Type>
+        <Type Name="&lt;Can_Send_A_Metric_With_No_Filter2&gt;d__3" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
+          <Method Name="MoveNext()" CoveredStatements="5" TotalStatements="5" CoveragePercent="100" FirstStatementLine="38" />
+        </Type>
+        <Type Name="&lt;Can_Send_A_Metric_With_No_Filters&gt;d__4" CoveredStatements="6" TotalStatements="6" CoveragePercent="100">
+          <Method Name="MoveNext()" CoveredStatements="6" TotalStatements="6" CoveragePercent="100" FirstStatementLine="46" />
+        </Type>
+        <Type Name="&lt;Can_Send_A_Single_Metric&gt;d__5" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
+          <Method Name="MoveNext()" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" FirstStatementLine="55" />
+        </Type>
+        <Type Name="&lt;Can_Send_More_Than_100_Metrics_At_A_Time&gt;d__6" CoveredStatements="10" TotalStatements="10" CoveragePercent="100">
+          <Method Name="MoveNext()" CoveredStatements="10" TotalStatements="10" CoveragePercent="100" FirstStatementLine="61" />
+        </Type>
+      </Type>
+      <Type Name="TestCaseBase" CoveredStatements="31" TotalStatements="31" CoveragePercent="100">
+        <Method Name=".cctor()" CoveredStatements="1" TotalStatements="1" CoveragePercent="100" FirstStatementLine="9" />
+        <Method Name=".ctor()" CoveredStatements="5" TotalStatements="5" CoveragePercent="100" FirstStatementLine="10" />
+        <Method Name="GenerateTestMetric()" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" FirstStatementLine="17" />
+        <Method Name="RandomAggregateType()" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" FirstStatementLine="27" />
+        <Method Name="RandomFilter1()" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" FirstStatementLine="33" />
+        <Method Name="RandomFilter2()" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" FirstStatementLine="39" />
+        <Method Name="RandomMetricName()" CoveredStatements="4" TotalStatements="4" CoveragePercent="100" FirstStatementLine="45" />
+        <Method Name="RandomMetricValue()" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" FirstStatementLine="51" />
+        <Method Name="RandomNumber(Int32,Int32)" CoveredStatements="3" TotalStatements="3" CoveragePercent="100" FirstStatementLine="56" />
+      </Type>
+    </Namespace>
+    <Type Name="AutoGeneratedProgram" CoveredStatements="0" TotalStatements="2" CoveragePercent="0">
+      <Method Name="Main(String[])" CoveredStatements="0" TotalStatements="2" CoveragePercent="0" FirstStatementLine="3" />
+    </Type>
+  </Assembly>
+</Root>

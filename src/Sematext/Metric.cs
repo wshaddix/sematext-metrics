@@ -15,7 +15,7 @@ namespace Sematext
 
         public long Timestamp { get; private set; }
 
-        public int Value { get; private set; }
+        public double Value { get; private set; }
 
         /// <summary>
         /// Creates a new Metric
@@ -26,7 +26,7 @@ namespace Sematext
         /// <param name="aggregateType">The aggregation type to use for the metric</param>
         /// <param name="filter1">The value for filter1</param>
         /// <param name="filter2">The value for filter2</param>
-        public Metric(long timestamp, string name, int value, AggregateTypes aggregateType, string filter1 = null, string filter2 = null)
+        public Metric(long timestamp, string name, double value, AggregateTypes aggregateType, string filter1 = null, string filter2 = null)
         {
             this.SetTimestamp(timestamp)
                 .SetName(name)
@@ -44,7 +44,7 @@ namespace Sematext
         /// <param name="aggregateType">The aggregation type to use for the metric</param>
         /// <param name="filter1">The value for filter1</param>
         /// <param name="filter2">The value for filter2</param>
-        public Metric(string name, int value, AggregateTypes aggregateType, string filter1 = null, string filter2 = null)
+        public Metric(string name, double value, AggregateTypes aggregateType, string filter1 = null, string filter2 = null)
         {
             this.SetTimestamp(TimeHelper.EpochFromUtc)
                 .SetName(name)
@@ -116,9 +116,9 @@ namespace Sematext
             return this;
         }
 
-        public Metric SetValue(int value)
+        public Metric SetValue(double value)
         {
-            Value = value;
+            this.Value = value;
             return this;
         }
     }

@@ -11,11 +11,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Sematext-Metrics</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>Wes Shaddix</Authors>
     <Description>A custom metrics client for .Net</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageReleaseNotes>Changed metric values from int to double so it will support both counter and measurement style metrics</PackageReleaseNotes>
     <PackageTags>sematext spm metrics</PackageTags>
   </PropertyGroup>
 
